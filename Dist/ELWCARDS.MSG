@@ -1,0 +1,263 @@
+LEVEL3 {Elwynor Technologies: Card Sharks}
+
+ If you want to limit access to Card Sharks, fill
+ this option in with the name of a key.  Only users
+ with this key will be allowed to play Card Sharks.
+ If you want everyone to be able to play this game,
+ leave this option blank.
+
+CARDSKEY {DEMO} S 15 Key required to play Card Sharks
+
+LEVEL4 {Elwynor Technologies: Card Sharks}
+
+  If you want to display a message at user logon
+  pertaining to Card Sharks, set this option to YES.
+  You may then set the LOGIN text.
+
+CARDSMSV {Display Card Sharks messages at logon? YES} B
+
+LEVEL6 {Elwynor Technologies: Card Sharks}
+
+CSLOGIN {
+Higher or Lower?  Come play Card Sharks and find out!
+} T Card Sharks Login Message
+
+MAIN
+{
+        Card Sharks
+        -----------
+ 
+   I ... Instructions
+   P ... Play Card Sharks
+   T ... Top Ten Players
+   X ... Exit Card Sharks
+ 
+Enter Your Option -> } T Card Sharks Text
+ 
+EXIT
+{
+Thanks, %s, for playing Card Sharks!
+} T Card Sharks Text
+ 
+INSTRUCT
+{
+INSTRUCTIONS
+------------
+ 
+   The object of Card Sharks is to finish with the largest amount of cash
+possible.  You begin with $250 in cash and must go through 5 levels of betting.
+After each level you will recieve an additional $250.  The first four levels
+contain 5 cards and the last level has 2 cards.  On each level one card will
+be open for you to guess whether the next card will be higher or lower.  Before
+the next card is revealed you must bet an amount less then or equal to what
+you have on hand.  If the next card is lower and you stated that it would be
+lower then you win the amount you bet.  If it is higher and you stated that
+it would be higher then you also win your bet.  But if the card is not in
+the direction that you stated, you LOSE!  If the card is the same then a PUSH
+occurs and no money is won or lost.  On the last level you must bet at least
+half your money before the last card is turned.  Also at the beginning of
+each level you will be asked if you want to change that card or not.  Don't
+forget that the ACE is the highest and the 2 is the lowest!
+ 
+Now you are ready for :
+ 
+------>  C A R D   S H A R K S  <------
+ 
+} T Card Sharks Text
+ 
+TOPTEN
+{
+Top Ten Card Sharks Players
+===========================
+ 
+User-Id                         Score
+-----------------------------   -----------
+} T Card Sharks Text
+
+TOPS
+{%-30s  %s
+} T Card Sharks Text
+
+CARDT
+{
+ÚÄÄÄÄÄÄÄÄÄÄ¿
+³ LEVEL %s  ³
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+ÚÄÄÄÄÄ¿ÚÄÄÄÄÄ¿ÚÄÄÄÄÄ¿ÚÄÄÄÄÄ¿ÚÄÄÄÄÄ¿
+} T Card Sharks Text
+
+CARDTA
+{
++----------+
+| LEVEL %s  |
++----------+
++-----++-----++-----++-----++-----+
+} T Card Sharks Text
+ 
+CARDT1
+{
+ÚÄÄÄÄÄÄÄÄÄÄ¿
+³ LEVEL %s  ³
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+ÚÄÄÄÄÄ¿ÚÄÄÄÄÄ¿
+} T Card Sharks Text
+
+CARDT1A
+{
++----------+
+| LEVEL %s  |
++----------+
++-----++-----+
+} T Card Sharks Text
+
+CARDB1
+{ÀÄÄÄÄÄÙÀÄÄÄÄÄÙ
+ 
+You must bet at least half your Money!
+ 
+} T Card Sharks Text
+
+CARDB1A
+{+-----++-----+
+ 
+You must bet at least half your Money!
+ 
+} T Card Sharks Text
+
+CARDB
+{ÀÄÄÄÄÄÙÀÄÄÄÄÄÙÀÄÄÄÄÄÙÀÄÄÄÄÄÙÀÄÄÄÄÄÙ
+} T Card Sharks Text
+
+CARDBA
+{+-----++-----++-----++-----++-----+
+} T Card Sharks Text
+
+CARDM
+{³} T Card Sharks Text
+
+CARDMA
+{|} T Card Sharks Text
+
+CARDMM
+{
+³     ³³     ³³     ³³     ³³     ³
+} T Card Sharks Text
+
+CARDMMA
+{
+|     ||     ||     ||     ||     |
+} T Card Sharks Text
+
+CARDMM1
+{
+³     ³³     ³
+} T Card Sharks Text
+
+CARDMM1A
+{
+|     ||     |
+} T Card Sharks Text
+
+CARDBB
+{³     ³} T Card Sharks Text
+
+CARDBBA
+{|     |} T Card Sharks Text
+ 
+CARD1{ J} T Card Sharks Text
+
+CARD2{ Q} T Card Sharks Text
+
+CARD3{ K} T Card Sharks Text
+
+CARD4{ A} T Card Sharks Text
+ 
+KIND1{ } T Card Sharks Text
+
+KIND2{ } T Card Sharks Text
+
+KIND3{ } T Card Sharks Text
+
+KIND4{ } T Card Sharks Text
+
+KIND8{ H} T Card Sharks Text
+
+KIND5{ S} T Card Sharks Text
+
+KIND6{ C} T Card Sharks Text
+
+KIND7{ D} T Card Sharks Text
+ 
+CHANGE
+{
+Do you want to keep this Card? Y/N } T Card Sharks Text
+
+BID
+{
+You have $%s in your account.
+How much money will you bet ? } T Card Sharks Text
+ 
+HIGHER
+{
+H)igher or L)ower : H/L ? } T Card Sharks Text
+
+ONLYBID
+{
+Invalid Amount!  Bid between 1 - %s.
+Please try again in the proper format!
+ 
+} T Card Sharks Text
+
+WIN
+{
+YOU WIN!
+} T Card Sharks Text
+
+LOSE
+{
+YOU LOSE!
+} T Card Sharks Text
+
+DRAW
+{
+It was the same quantity, you PUSH!
+} T Card Sharks Text
+
+FINAL
+{
+You finish with $%s!
+} T Card Sharks Text
+
+WINNING {
+Congratulations!  You made the Top Ten!
+} T Card Sharks Text
+
+BROKE {
+You just broke your bank!
+You are out of cash.  Better luck next time!
+ 
+  - Game Over -
+} T Card Sharks Text
+
+LESS
+{
+Sorry, you must bet at least half
+of your money on this final level!
+ 
+} T Card Sharks Text
+
+OPTION
+{
+Enter Your Option -> } T Card Sharks Text
+
+NONMEM {
+Sorry, you do not have access to play Card Sharks.
+} T Card Sharks Text
+
+EXTRA
+{
+An additional $250 has been added!
+} T Card Sharks Text
+
+ 
+

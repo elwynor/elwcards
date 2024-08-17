@@ -1,0 +1,6 @@
+; Filename: ELWCARDS_EXP.DEF
+LIBRARY ELWCARDS.DLL
+; *** Visual Studio 2022 EXPORT ALIASES ONLY ***
+; Card Sharks - Copyright (c) 2024 Elwynor Technologies
+EXPORTS
+	_init__elwcards=init__elwcards	@1
