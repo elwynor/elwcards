@@ -1,8 +1,9 @@
 <pre>
-                   __      __            __      
-  _______ ________/ / ___ / /  ___ _____/ /__ ___
- / __/ _ `/ __/ _  / (_-</ _ \/ _ `/ __/  '_/(_-<
- \__/\_,_/_/  \_,_/ /___/_//_/\_,_/_/ /_/\_\/___/
+   ______               __   _____ __               __
+  / ____/___ __________/ /  / ___// /_  ____ ______/ /_______
+ / /   / __ `/ ___/ __  /   \__ \/ __ \/ __ `/ ___/ //_/ ___/
+/ /___/ /_/ / /  / /_/ /   ___/ / / / / /_/ / /  / ,< (__  )
+\____/\__,_/_/   \__,_/   /____/_/ /_/\__,_/_/  /_/|_/____/
                                         
                   version 1.1
    Copyright (c) 2005-2024 Elwynor Technologies
@@ -54,7 +55,7 @@
  Most of the configuration is text blocks in LEVEL6, but you can set the key 
  required to play in LEVEL3 and whether to show a log-on message in LEVEL4. 
 
- GAME HISTORY
+## GAME HISTORY
  
  Card Sharks was originally written developed by Yannick Tessier in 1989 for 
  version 5 of The Major BBS.  The game was marketed by Tessier Technologies 
